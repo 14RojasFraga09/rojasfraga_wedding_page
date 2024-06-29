@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Hero from './components/Hero/Hero';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="flex flex-col bg-neutral-cream">
+      <Hero />
+
+      <div className='h-dvh w-dvw'>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          random div to test scrolling
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h2>Test fonts:</h2>
+        <ul>
+          <li><p className='font-sans'>Sans serif</p></li>
+          <li><p className='font-serif'>Serif</p></li>
+          <li><p className='font-deco'>Deco</p></li>
+        </ul>
+      </div>
     </div>
   );
 }
