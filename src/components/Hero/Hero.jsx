@@ -14,14 +14,14 @@ const Hero = () => {
             <div className='grid grid-rows-[auto_1fr] justify-items-center items-center lg:relative lg:right-[2.5dvw] w-dvw lg:w-[45dvw] h-full px-6'>
                 <img src='/images/top-hero-border.png' alt='Eucaliptus and lavander border' className='h-[25dvh] object-contain object-top hidden lg:block' />
                 <div className="flex flex-col justify-center items-center gap-7 text-shadows relative top-[-25dvh] h-dvh">
-                    <div className='w-fit font-sans text-2xl font-bold'><p>{strings.date}</p></div>
+                    <div data-testid="hero-date" className='w-fit font-sans text-2xl font-bold'><p>{strings.date}</p></div>
                     <div className="font-serif font-bold text-7xl text-center text-pia-blue-900">
-                        <p>{strings.groom}</p>
+                        <p data-testid="hero-groom">{strings.groom}</p>
                         <p className="text-jacarta-100">&</p>
-                        <p>{strings.bride}</p>
+                        <p data-testid="hero-bride">{strings.bride}</p>
                     </div>
                     <div className="quote mt-4">
-                        <p className="font-sans text-xl text-center lg:w-[30dvw]">{strings.quote}</p>
+                        <p data-testid="hero-quote" className="font-sans text-xl text-center lg:w-[30dvw]">{strings.quote}</p>
                     </div>
                 </div>
             </div>
