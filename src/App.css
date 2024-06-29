@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+:root {
+  --quote-size: 2rem;
+
+  @media (min-width: 1024px) { 
+    --quote-size: 3rem;
+   }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.highlight {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(190, 164, 210, 0.1),
+    rgba(190, 164, 210, 0.7) 4%,
+    rgba(190, 164, 210, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.quote {
+  border: 1px #998cad solid;
+  padding: 0.75rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.quote::before {
+  content: "";
+  border-radius: 100%;
+  background-color: rgb(245, 240, 233);
+  background-image: url(/public/images/opening-quotation-mark.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  height: var(--quote-size);
+  width: var(--quote-size);
+  position: absolute;
+  margin-top: calc(-1 * (0.75rem + var(--quote-size)/2));
+  margin-left: calc(-1 * (0.75rem + var(--quote-size)/2));
 }
 
-.App-link {
-  color: #61dafb;
+.quote::after {
+  content: "";
+  border-radius: 100%;
+  background-color: rgb(245, 240, 233);
+  background-image: url(/public/images/closing-quotation-mark.svg);
+  display: block;
+  height: var(--quote-size);
+  width: var(--quote-size);
+  position: absolute;
+  margin-left: calc((-1*(0.75rem + var(--quote-size)/2) + (100dvw - 48px)));
+  margin-top: calc(-1 * (var(--quote-size)/2 - 0.75rem));
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (min-width: 1024px) { 
+  .quote::after {
+    margin-left: calc(-1 * 0.75rem + 30dvw);
   }
 }
