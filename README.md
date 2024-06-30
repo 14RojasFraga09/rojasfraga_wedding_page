@@ -1,3 +1,8 @@
+### Docker Instructions
+Install Docker on your machine and then:
+`docker run -dp 3000:3000 rojasfraga2024/wedding:latest`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
