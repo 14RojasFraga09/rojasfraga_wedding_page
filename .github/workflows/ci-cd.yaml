@@ -1,0 +1,32 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main 
+
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+
+      - name: Build Docker image
+        run: |
+          docker buildx build \
+            --platform linux/amd64,linux/arm64 \
+            -t rojasfraga2024/wedding:${{ github.sha }} \
+            -t rojasfraga2024/wedding:latest
+            --push .
+
+      - name: Deploy to production
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        run: |
+          # Add deployment commands here if necessary
+          echo "Deploying to production..."
