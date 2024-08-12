@@ -1,0 +1,46 @@
+{
+    "registry-title": "Civil",
+    "registry-date": "Martes 10 de septiembre",
+    "registry-time": "10:00hs",
+    "registry-where": {
+        "line-1": "Sarandí 428, Ciudad Vieja",
+        "line-2": "Oficina 2",
+        "line-3": "Montevideo, Uruguay",
+        "button": {
+            "url": "https://maps.app.goo.gl/Hd6VAxafLoTEJswi8",
+            "text": "Ver mapa"
+        }
+    },
+    "registry-how": [
+        {
+            "title": "Líneas de ómnibus cercanas:",
+            "text": ["CE1, 60, 102, 103, 116, 121, 124, 125, 127, 130, 133, 137, 148, 156, 158, 169, 180, 187, 188, 402, 456, 524"],
+            "button": {
+                "show": true,
+                "text": "Más información sobre transporte",
+                "url": "https://montevideo.gub.uy/montevideo-en-linea"
+            }
+        }
+    ],
+    "ceremony-title": "Ceremonia",
+    "ceremony-date": "Sábado 14 de septiembre",
+    "ceremony-time": "18:00hs",
+    "ceremony-where": {
+        "line-1": "Salón El Cortijo",
+        "line-2": "Calle 3 A, Berazategui Oeste,",
+        "line-3": "Buenos Aires, Argentina",
+        "button-text": "Ver mapa"
+    },
+    "ceremony-how": [
+        {
+            "title": "Transporte contratado:",
+            "text": ["Punto de salida: Plaza General San Martín, Retiro, CABA", "Horario de salida: 16:45hs"]
+        },
+        {
+            "title": "Transporte público:",
+            "text": ["Pía, poné algo acá que no tengo ni la más puta idea. También podés agregar un botón."]
+        }
+    ],
+    "section-where-title": "¿Dónde?",
+    "section-how-title": "¿Cómo llego?"
+}
