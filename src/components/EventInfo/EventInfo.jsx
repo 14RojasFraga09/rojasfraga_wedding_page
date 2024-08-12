@@ -21,7 +21,7 @@ const EventInfo = () => {
         <div className='flex flex-col gap-12 lg:gap-x-px lg:grid lg:grid-cols-2 text-center text-shadows lg:bg-jacarta-100'>
           <EventInfoCol>
             <>
-              <p className='text-5xl uppercase text-pia-blue-900 w-full font-serif'>{strings["registry-title"]}</p>
+              <p className='text-5xl font-bold uppercase text-pia-blue-900 w-full font-serif'>{strings["registry-title"]}</p>
               <div>
                 <p className='font-deco text-3xl'>{strings["registry-date"]}</p>
                 <p className='font-serif'>{strings["registry-time"]}</p>
@@ -46,7 +46,7 @@ const EventInfo = () => {
             </>
           </EventInfoCol>
           <EventInfoCol>
-            <p className='text-5xl uppercase text-pia-blue-900 w-full font-serif '>Ceremonia</p>
+            <p className='text-5xl font-bold uppercase text-pia-blue-900 w-full font-serif '>Ceremonia</p>
             <div>
                 <p className='font-deco text-3xl'>{strings["ceremony-date"]}</p>
                 <p className='font-serif'>{strings["ceremony-time"]}</p>

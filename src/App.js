@@ -2,6 +2,7 @@ import './App.css';
 import EventInfo from './components/EventInfo/EventInfo.jsx';
 import Hero from './components/Hero/Hero.jsx';
 import Timer from './components/Timer/Timer.jsx';
+import Tips from './components/Tips/Tips.jsx';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className='w-dvw bg-jacarta-100 opacity-50 absolute lg:top-[170px] xl:top-[230px] h-[calc(390px-)]'></div>
       </section>
       <EventInfo />
+      <Tips />
 
       <div className='h-dvh w-dvw'>
         <p className='mt-[200px]'>

@@ -1,0 +1,27 @@
+{
+    "title": "La fiesta",
+    "first-card": {
+        "title": "Música",
+        "text": "¡Preparate para bailar toda la noche! ¿Querés tener una idea de qué va a sonar para practicar algunos pasos?",
+        "button": {
+            "url": "spotify.com",
+            "text": "Escuchá un adelanto"
+        }
+    },
+    "second-card": {
+        "title": "Vestimenta",
+        "text": "Vestido ni blanco ni rojo, eso está claro, pero, ¿no estás seguro de qué es \"vestimenta formal\"? Te ayudamos.",
+        "button": {
+            "url": "pinterest.com",
+            "text": "Inspirate con algunos outfits"
+        }
+    },
+    "third-card": {
+        "title": "Comida",
+        "text": "Sabemos que solo venís porque querés celebrar con nosotros, pero tranquilo que te vas a ir con el estómago lleno.",
+        "button": {
+            "url": "pinterest.com",
+            "text": "Adelantá qué vas a comer"
+        }
+    }
+}
