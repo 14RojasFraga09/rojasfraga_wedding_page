@@ -35,10 +35,6 @@
         {
             "title": "Transporte contratado:",
             "text": ["Punto de salida: Plaza General San Martín, Retiro, CABA", "Horario de salida: 16:45hs"]
-        },
-        {
-            "title": "Transporte público:",
-            "text": ["Pía, poné algo acá que no tengo ni la más puta idea. También podés agregar un botón."]
         }
     ],
     "section-where-title": "¿Dónde?",
