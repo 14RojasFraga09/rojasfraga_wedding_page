@@ -1,6 +1,7 @@
 import './App.css';
 import EventInfo from './components/EventInfo/EventInfo.jsx';
 import Hero from './components/Hero/Hero.jsx';
+import PhotosQR from './components/PhotosQR/PhotosQR.jsx';
 import Timer from './components/Timer/Timer.jsx';
 import Tips from './components/Tips/Tips.jsx';
 
@@ -14,18 +15,7 @@ function App() {
       </section>
       <EventInfo />
       <Tips />
-
-      <div className='h-dvh w-dvw'>
-        <p className='mt-[200px]'>
-          random div to test scrolling
-        </p>
-        <h2>Test fonts:</h2>
-        <ul>
-          <li><p className='font-sans'>Sans serif</p></li>
-          <li><p className='font-serif'>Serif</p></li>
-          <li><p className='font-deco'>Deco</p></li>
-        </ul>
-      </div>
+      <PhotosQR />
     </div>
   );
 }
