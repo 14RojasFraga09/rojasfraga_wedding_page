@@ -39,7 +39,7 @@ const Timer = () => {
     const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
     useEffect(() => {
-        const timer = setInterval(() => {
+        const timer = setInterval(() => { 
           setTimeLeft(calculateTimeLeft());
         }, 1000);
     
@@ -48,10 +48,10 @@ const Timer = () => {
 
     return(
         <div className="w-full flex justify-center items-center relative">
-            <div className="bg-neutral-cream-bg h-[300px] w-[300px] lg:h-[350px] lg:w-[350px] rounded-full flex flex-col justify-center items-center">
+            <div className="bg-neutral-cream-300 h-[300px] w-[300px] xl:h-[350px] xl:w-[350px] rounded-full flex flex-col justify-center items-center">
                 <p className="text-5xl lg:text-6xl font-serif font-bold pb-6">{strings.title}</p>
                 <div className="grid grid-rows-2 grid-cols-[repeat(4,_60px)] bg-jacarta-100 gap-x-px
-                [&>span]:flex [&>span]:justify-center [&>span]:px-2 [&>span]:bg-neutral-cream-bg">
+                [&>span]:flex [&>span]:justify-center [&>span]:px-2 [&>span]:bg-neutral-cream-300">
                     <TimerNumber number={timeLeft.days}/>
                     <TimerNumber number={timeLeft.hours}/>
                     <TimerNumber number={timeLeft.minutes}/>
@@ -64,7 +64,7 @@ const Timer = () => {
                 </div>
             </div>
             <div className="absolute  w-full flex justify-center items-center h-[300px] lg:h-[350px] overflow-visible">
-                <img className="h-[390px] w-[390px] lg:h-[440px] lg:w-[440px]" src="/images/countdown.png" alt="Wreath of lavander and eucalyptus flowers" role="presentation" />
+                <img className="h-[390px] w-[390px] xl:h-[440px] xl:w-[440px]" src="/images/countdown.png" alt="Wreath of lavander and eucalyptus flowers" role="presentation" />
             </div>
         </div>
     )

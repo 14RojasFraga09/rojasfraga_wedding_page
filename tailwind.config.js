@@ -5,14 +5,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'neutral-cream-bg': '#f5f0e9',
+        'shadows': "#6C6C6C",
         'neutral-cream': {
-          100: '#fbf9f6',
+          100: '#f9f6f2',
           200: '#f8f4f0',
           300: '#f5f0e9',
           400: '#d5d1cb',
+          500: '#b6b2ad',
         },
-        'neutral-cream-bg': '#f5f0e9',
-        'shadows': "#6C6C6C",
         'jacarta': {
           100: '#998cad',
           200: '#86779d',
