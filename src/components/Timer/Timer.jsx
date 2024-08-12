@@ -64,7 +64,7 @@ const Timer = () => {
                 </div>
             </div>
             <div className="absolute  w-full flex justify-center items-center h-[300px] lg:h-[350px] overflow-visible">
-                <img className="h-[390px] w-[390px] 2xl:h-[440px] 2xl:w-[440px]" src="/images/countdown.png" alt="Wreath of lavander and eucalyptus flowers" role="presentation" />
+                <img className="h-[390px] w-[390px] 2xl:h-[440px] 2xl:w-[440px] rotate-[60deg]" src="/images/countdown.png" alt="Wreath of lavander and eucalyptus flowers" role="presentation" />
             </div>
         </div>
     )
