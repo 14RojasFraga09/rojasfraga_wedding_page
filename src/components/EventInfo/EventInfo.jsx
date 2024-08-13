@@ -17,7 +17,7 @@ const EventInfoSection = ({title, children}) => {
 
 const EventInfo = () => {
     return (
-        <section className='pt-16 lg:pt-[300px] max-w-[90dvw] mx-auto'>
+        <section className='pt-16 lg:pt-[250px] max-w-[90dvw] mx-auto'>
         <div className='flex flex-col gap-12 lg:gap-x-px lg:grid lg:grid-cols-2 text-center text-shadows lg:bg-jacarta-100'>
           <EventInfoCol>
             <>
