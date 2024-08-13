@@ -12,7 +12,7 @@ const Hero = () => {
 
         </div>
         <div className="h-min lg:h-dvh w-dvw lg:w-[45dvw] bg-neutral-cream-bg flex justify-center">
-            <div className='grid grid-rows-[auto_1fr] justify-items-center items-center lg:relative lg:right-[2.5dvw] w-dvw lg:w-[45dvw] h-full px-6'>
+            <div className='flex flex-col justify-items-center items-center lg:relative lg:right-[2.5dvw] w-dvw lg:w-[45dvw] h-full px-6'>
                 <img src='/images/top-hero-border.png' alt='Eucaliptus and lavander border' className='h-[20dvh] object-contain object-top hidden lg:block' />
                 <div className="flex flex-col justify-around items-center text-shadows top-[-20vh] h-[80dvh] md:max-h-[60dvh] lg:pb-9 xl:pb-24">
                     <div data-testid="hero-date" className='w-fit font-sans text-2xl font-bold'><p>{strings.date}</p></div>
