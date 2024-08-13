@@ -9,9 +9,9 @@ const TipBox = ({icon, title, text, button}) => {
                 <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 {title}
                 </h5>
-                <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-                {text}
-                </p>
+                {text.map((txt, idx) => <p key={idx} className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+                {txt}
+                </p>)}
             </div>
             <div className="p-6 pt-0">
                 <Button url={button.url} text={button.text}/>

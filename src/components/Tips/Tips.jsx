@@ -1,5 +1,5 @@
 import TipBox from "./TipBox";
-import { faMusic, faUserTie, faUtensils } from '@fortawesome/free-solid-svg-icons';
+import { faMusic, faUserTie, faGift } from '@fortawesome/free-solid-svg-icons';
 import strings from "../../strings/fiesta-tips.json";
 
 const Tips = () => {
@@ -10,7 +10,7 @@ const Tips = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 relative top-[70px]">
                 <TipBox title={strings["first-card"].title} icon={faMusic} text={strings["first-card"].text} button={{url: strings["first-card"].button.url, text: strings["first-card"].button.text}} />
                 <TipBox title={strings["second-card"].title} icon={faUserTie} text={strings["second-card"].text} button={{url: strings["second-card"].button.url, text: strings["second-card"].button.text}} />
-                <TipBox title={strings["third-card"].title} icon={faUtensils} text={strings["third-card"].text} button={{url: strings["third-card"].button.url, text: strings["third-card"].button.text}} />
+                <TipBox title={strings["third-card"].title} icon={faGift} text={strings["third-card"].text} button={{url: strings["third-card"].button.url, text: strings["third-card"].button.text}} />
             </div>
         </section>
     );
