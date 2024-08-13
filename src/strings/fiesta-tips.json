@@ -4,7 +4,7 @@
         "title": "Música",
         "text": "¡Preparate para bailar toda la noche! ¿Querés tener una idea de qué va a sonar para practicar algunos pasos?",
         "button": {
-            "url": "spotify.com",
+            "url": "https://open.spotify.com/playlist/6HbLZXmXk0jASY4h1f9jT4?si=a411cf8d0b014b08",
             "text": "Escuchá un adelanto"
         }
     },
@@ -12,7 +12,7 @@
         "title": "Vestimenta",
         "text": "Vestido ni blanco ni rojo, eso está claro, pero, ¿no estás seguro de qué es \"vestimenta formal\"? Te ayudamos.",
         "button": {
-            "url": "pinterest.com",
+            "url": "https://www.pinterest.com/mapiafragarojas/codigo-de-vestimenta/",
             "text": "Inspirate con algunos outfits"
         }
     },
@@ -20,7 +20,7 @@
         "title": "Comida",
         "text": "Sabemos que solo venís porque querés celebrar con nosotros, pero tranquilo que te vas a ir con el estómago lleno.",
         "button": {
-            "url": "pinterest.com",
+            "url": "https://www.pinterest.com/mapiafragarojas/adelanto-comida/",
             "text": "Adelantá qué vas a comer"
         }
     }
