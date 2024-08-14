@@ -18,19 +18,7 @@
     },
     "third-card": {
         "title": "Regalo",
-        "text": ["Si quieres tener un detalle con Nosotros", 
-                "¡aun estamos amoblando nuestra casa!", 
-                "Tranferencia MiDinero (Uruguay)", 
-                "Cuenta: 3701493414",
-                "Maria Pia Fraga",
-                "Transferencia BBVA (Argentina)",
-                "CBU: 017001450000014434079",
-                "Alias: ROJASFRAGA2024",
-                "o Si quieres hacernos un regalo personal, ¡contactate con los Novios!"
-            ],
-        "button": {
-            "url": "https://www.pinterest.com/mapiafragarojas/adelanto-comida/",
-            "text": "Adelantá qué vas a comer"
-        }
+        "text": [
+            ]
     }
 }
