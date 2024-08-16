@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import strings from "../../strings/timer.json";
 import { differenceInDays, differenceInHours, differenceInMinutes, differenceInSeconds, isPast} from "date-fns";
-import { wreath } from "../../assets/images/countdown.png"
+import wreath from "../../assets/images/countdown.png"
 
 const calculateTimeLeft = () => {
     const now = new Date();
