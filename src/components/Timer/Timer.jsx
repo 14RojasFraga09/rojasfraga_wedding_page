@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import strings from "../../strings/timer.json";
 import { differenceInDays, differenceInHours, differenceInMinutes, differenceInSeconds, isPast} from "date-fns";
+import { wreath } from "../../assets/images/countdown.png"
 
 const calculateTimeLeft = () => {
     const now = new Date();
@@ -64,7 +65,7 @@ const Timer = () => {
                 </div>
             </div>
             <div className="absolute  w-full flex justify-center items-center h-[300px] lg:h-[350px] overflow-visible">
-                <img className="h-[390px] w-[390px] 2xl:h-[440px] 2xl:w-[440px] rotate-[60deg]" src="../assets/images/countdown.png" alt="Wreath of lavander and eucalyptus flowers" role="presentation" />
+                <img className="h-[390px] w-[390px] 2xl:h-[440px] 2xl:w-[440px] rotate-[60deg]" src={wreath} alt="Wreath of lavander and eucalyptus flowers" role="presentation" />
             </div>
         </div>
     )
