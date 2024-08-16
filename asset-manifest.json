@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/rojasfraga_wedding_page/static/css/main.af8d76fc.css",
+    "main.js": "/rojasfraga_wedding_page/static/js/main.0fada3cf.js",
+    "static/js/453.fb85221d.chunk.js": "/rojasfraga_wedding_page/static/js/453.fb85221d.chunk.js",
+    "static/media/hero.jpg": "/rojasfraga_wedding_page/static/media/hero.2dfa43e959e27bc8f2d6.jpg",
+    "index.html": "/rojasfraga_wedding_page/index.html",
+    "static/media/closing-quotation-mark.svg": "/rojasfraga_wedding_page/static/media/closing-quotation-mark.ab0fc22f0dd8a4c91bb0.svg",
+    "static/media/opening-quotation-mark.svg": "/rojasfraga_wedding_page/static/media/opening-quotation-mark.3003c1f2602c9464597c.svg",
+    "main.af8d76fc.css.map": "/rojasfraga_wedding_page/static/css/main.af8d76fc.css.map",
+    "main.0fada3cf.js.map": "/rojasfraga_wedding_page/static/js/main.0fada3cf.js.map",
+    "453.fb85221d.chunk.js.map": "/rojasfraga_wedding_page/static/js/453.fb85221d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af8d76fc.css",
+    "static/js/main.0fada3cf.js"
+  ]
+}
