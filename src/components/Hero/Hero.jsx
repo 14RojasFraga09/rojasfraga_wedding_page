@@ -9,9 +9,8 @@ const Hero = () => {
     <div id="hero" data-testid="hero" className='w-dvw col-span-1 col-sart-1 row-span-1 row-start-1 grid grid-rows-[60dvh_auto] lg:grid-rows-[100dvh] grid-cols-[100dvw] lg:grid-cols-[55dvw_1fr] bg-neutral-cream-bg absolute'>
         <div id='hero-photo' className="flex flex-col justify-end overflow-hidden bg-fixed bg-[url('/public/images/hero.jpg')] bg-cover bg-no-repeat bg-[center_-5dvh] lg:bg-[-22dvw_top] h-full w-dvw lg:w-[55dvw]">
             <svg className='hidden lg:block fill-neutral-cream-bg' viewBox="0 0 500 150" preserveAspectRatio="none" style={{height: "100dvh", width: "100%"}}><path d="M417.61,-0.47 C546.84,69.60 405.76,85.51 466.70,150.47 L502.82,150.28 L500.56,0.10 Z" style={{stroke: "none"}}></path></svg>
-            <img src={mobileDeco} alt='Eucaliptus and lavander' className='w-min object-contain h-[15vh] relative right-3 top-[18vh] rotate-[-5deg] lg:hidden' />
+            <img src={mobileDeco} alt='Eucaliptus and lavander' className='w-min object-contain h-[15vh] relative left-[-20px] top-[18vh] rotate-[-5deg] lg:hidden' />
             <svg className='lg:hidden fill-neutral-cream-bg' viewBox="0 0 500 150" preserveAspectRatio="none" style={{height: "20dvh", width: "100dvw"}}><path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style={{stroke: "none"}}></path></svg>
-
         </div>
         <div className="h-min lg:h-dvh w-dvw lg:w-[45dvw] bg-neutral-cream-bg flex justify-center">
             <div className='flex flex-col justify-items-center items-center lg:relative lg:right-[2.5dvw] w-dvw lg:w-[45dvw] h-full px-6'>
