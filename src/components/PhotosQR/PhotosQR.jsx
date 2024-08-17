@@ -1,4 +1,5 @@
 import strings from "../../strings/phtos-qr.json";
+import QR from "../../assets/images/QR.jpg";
 
 const PhotosQR = () => {
     
@@ -7,7 +8,7 @@ const PhotosQR = () => {
             <p className="text-5xl font-serif font-bold">{strings.title}</p>
             <p className="">{strings.subtitle}</p>
             <a href={strings.link} target="blank" className="w-[50dvw] md:w-[40dvw] lg:w-[20dvw] mx-auto hover:scale-105 transition-all">
-                <img src="../..assets/images/QR.jpg" alt="QR to pictures link" className="rounded-3xl" />
+                <img src={QR} alt="QR to pictures link" className="rounded-3xl" />
             </a>
         </section>
     ) : null;
