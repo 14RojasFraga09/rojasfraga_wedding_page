@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rojasfraga_wedding_page/static/css/main.74b243c0.css",
-    "main.js": "/rojasfraga_wedding_page/static/js/main.dba8db7b.js",
+    "main.css": "/rojasfraga_wedding_page/static/css/main.004b7704.css",
+    "main.js": "/rojasfraga_wedding_page/static/js/main.4ea19a5e.js",
     "static/js/453.fb85221d.chunk.js": "/rojasfraga_wedding_page/static/js/453.fb85221d.chunk.js",
     "static/media/tips.png": "/rojasfraga_wedding_page/static/media/tips.2897b056b42f71ab8849.png",
     "static/media/countdown.png": "/rojasfraga_wedding_page/static/media/countdown.422bc7cc6f5aff365406.png",
@@ -13,12 +13,12 @@
     "index.html": "/rojasfraga_wedding_page/index.html",
     "static/media/closing-quotation-mark.svg": "/rojasfraga_wedding_page/static/media/closing-quotation-mark.ab0fc22f0dd8a4c91bb0.svg",
     "static/media/opening-quotation-mark.svg": "/rojasfraga_wedding_page/static/media/opening-quotation-mark.3003c1f2602c9464597c.svg",
-    "main.74b243c0.css.map": "/rojasfraga_wedding_page/static/css/main.74b243c0.css.map",
-    "main.dba8db7b.js.map": "/rojasfraga_wedding_page/static/js/main.dba8db7b.js.map",
+    "main.004b7704.css.map": "/rojasfraga_wedding_page/static/css/main.004b7704.css.map",
+    "main.4ea19a5e.js.map": "/rojasfraga_wedding_page/static/js/main.4ea19a5e.js.map",
     "453.fb85221d.chunk.js.map": "/rojasfraga_wedding_page/static/js/453.fb85221d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74b243c0.css",
-    "static/js/main.dba8db7b.js"
+    "static/css/main.004b7704.css",
+    "static/js/main.4ea19a5e.js"
   ]
 }
