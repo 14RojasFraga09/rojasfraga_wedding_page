@@ -30,7 +30,7 @@ const EventInfo = () => {
                 <p>{strings["registry-where"]["line-1"]}</p>
                 <p>{strings["registry-where"]["line-2"]}</p>
                 <p>{strings["registry-where"]["line-3"]}</p>
-                <Button url={strings["registry-where"].button.url} text={strings["registry-where"].button.text} classes="mt-4"/>
+                <Button url={strings["registry-where"].button.url} text={strings["registry-where"].button.text} classes="mt-4" type="link"/>
               </EventInfoSection>
               <EventInfoSection title={strings["section-how-title"]}>
                 {
@@ -63,7 +63,7 @@ const EventInfo = () => {
                     <React.Fragment key={idx}>
                       <p className={`font-bold ${idx > 0 && idx === strings["ceremony-how"].length - 1 ? "mt-4" : ""}`}>{item.title}</p>
                       {item.text.map((p, idx) => <p key={idx}>{p}</p>)}
-                      {item.button?.show && <Button url={item.button.url} text={item.button.text} classes="mt-4" />}
+                      {item.button?.show && <Button url={item.button.url} text={item.button.text} classes="mt-4" type="link"/>}
                     </React.Fragment>
                   ))
                 }
